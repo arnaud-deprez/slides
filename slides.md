@@ -11,7 +11,7 @@ title: Arnaud Deprez
 - Freelancer
 - Technical Architect
 
-<ul class="mt-12 !list-none">
+<ul class="mt-4 !list-none">
   <li>
     <a href="https://www.linkedin.com/in/arnaud-deprez/" class="!border-none">
       <logos:linkedin-icon class=inline /> @arnaud-deprez
@@ -24,9 +24,13 @@ title: Arnaud Deprez
   </li>
 </ul>
 
-<img src="/images/hihello.png" class="mx-auto mt-12 h-40 rounded shadow" />
+<img src="/images/hihello.png" class="mx-auto mt-4 h-40 rounded shadow" />
 
-
+<style>
+ul {
+  margin-left: 2rem;
+}
+</style>
 ---
 
 # Parcours professionnel
@@ -46,7 +50,6 @@ title: Arnaud Deprez
       <div class="flex justify-center w-150px">
         <img src="/images/logos/Eurocontrol.svg" class="h-20" />
       </div>
-      <h3>Freelancer</h3>
     </div>
   </li>
   <li>
@@ -151,26 +154,34 @@ layout: center
 
 <ul class="!list-none ml-8 mt-12">
   <li>
-    <ph:student class="inline mr-4 text-orange-500"/>
-    Développer des connaissances <strong>techniques</strong> et <strong>métiers</strong>
+    <ph:student class="inline mr-4 text-orange-500 text-3xl"/>
+    <span>Développer des connaissances <strong>Techniques</strong> et <strong>Métiers</strong></span>
   </li>
   <li>
-    <fluent:math-formula-16-filled class="inline  mr-4 text-orange-500"/>
-    Logique et Mathématique
+    <fluent:math-formula-16-filled class="inline mr-4 text-orange-500 text-3xl"/>
+    <span>Logique et Mathématique</span>
   </li>
   <li>
-    <simple-icons:awesomelists class="inline  mr-4 text-orange-500"/>
-    Créatif et Artistique
+    <simple-icons:awesomelists class="inline  mr-4 text-orange-500 text-3xl"/>
+    <span>Créatif et Artistique</span>
   </li>
   <li>
-    <fluent:flash-checkmark-16-regular class="inline mr-4 text-orange-500"/>
-    Avoir un impact direct
+    <fluent:flash-checkmark-16-regular class="inline mr-4 text-orange-500 text-3xl"/>
+    <span>Avoir un impact direct</span>
   </li>
   <li>
-    <mdi:web class="inline mr-4 text-orange-500"/>
-    Accessibilité
+    <mdi:web class="inline mr-4 text-orange-500 text-3xl"/>
+    <span>Accessibilité</span>
   </li>
 </ul>
+
+<style>
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+</style>
 
 ---
 
@@ -184,4 +195,4 @@ layout: center
 
 # Questions ?
 
-<img src="/images/hihello.png" class="mx-auto mt-12 h-40 rounded shadow" />
+<img src="/images/hihello.png" class="mx-auto mt-12 h-72 rounded shadow" />
