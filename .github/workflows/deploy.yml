@@ -1,6 +1,6 @@
 name: Deploy pages
 
-on: 
+on:
   push:
     branches:
       - main
@@ -10,17 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Setup Nodejs
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: "22"
       - name: Install dependencies
         run: npm install
       - name: Build
         run: npm run build -- --base /slides/
       - name: Deploy pages
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
         env:
