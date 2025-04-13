@@ -1,9 +1,14 @@
 ---
-theme: default
+theme: seriph
 layout: intro
+# https://sli.dev/features/drawing
 drawings:
   persist: false
 title: Arnaud Deprez
+# slide transition: https://sli.dev/guide/animations.html#slide-transitions
+transition: slide-left
+# enable MDC Syntax: https://sli.dev/features/mdc
+mdc: true
 ---
 
 # Arnaud Deprez
